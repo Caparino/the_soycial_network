@@ -1,6 +1,6 @@
-# The Soycial Network
+# the soycial network
 
-A command-line tool that creates memes from LinkedIn posts by adding soyjak reactions and censoring personal information.
+A command-line tool that creates memes from LinkedIn posts by adding soyjak reactions while censoring personal information.
 
 ## Features
 - Screenshots LinkedIn embed posts
@@ -14,24 +14,25 @@ A command-line tool that creates memes from LinkedIn posts by adding soyjak reac
 
 ## Installation
 1. Clone this repository
+```bash
+git clone https://github.com/Caparino/the_soycial_network.git
+cd the_soycial_network
+```
 
 2. Install dependencies:
-
 ```bash
-pip install playwright
-pip install Pillow
-
+pip install -r requirements.txt
 playwright install chromium
 ```
 
 
 ## Usage
 1. Get a LinkedIn post embed URL (right-click on post timestamp → "Embed this post")
+
 2. Run the script:
 ```bash
-python soycial_network.py --url <embed-url>
+python soycial_network.py "<embed-url>"
 ```
-
 
 3. The processed image will be saved as `output.png`
 
