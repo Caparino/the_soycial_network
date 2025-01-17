@@ -40,3 +40,6 @@ python soycial_network.py "<embed-url>"
 ## Notes
 - The script is designed for LinkedIn embed URLs, not regular LinkedIn post URLs
 - Image dimensions and positioning are optimized for standard LinkedIn post layouts
+
+## Here's what it looks like in action
+![Here's what it looks like in action](sample_outputs/sample_3.png)
