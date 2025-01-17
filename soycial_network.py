@@ -1,7 +1,8 @@
-from playwright.sync_api import sync_playwright
-from PIL import Image, ImageDraw
-import os
 import argparse
+import os
+
+from PIL import Image, ImageDraw
+from playwright.sync_api import sync_playwright
 
 
 def capture_screenshot_with_playwright(screenshot_path, linkedin_embed_url):
