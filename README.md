@@ -1,11 +1,15 @@
 # the soycial network
 
-A command-line tool that creates memes from LinkedIn posts by overlaying the famous soyjaks pointing while anonymizing personal information.
+A command-line tool that creates memes from LinkedIn posts by overlaying the famous soyjaks pointing meme while anonymizing personal information.
 
-## Features
-- Screenshots LinkedIn embed posts
-- Anonymizes profile pictures and names
-- Overlays with the infamous soyjaks pointing meme
+
+## How It Works
+1. Uses Playwright to capture a screenshot of the LinkedIn embed
+2. Applies black rectangles to censor personal information
+3. Crops out unnecessary UI elements
+4. Overlays soyjak reactions scaled to the post
+5. Saves the final meme as `output.png`
+
 
 ## Prerequisites
 - Python 3.x
@@ -39,13 +43,6 @@ python soycial_network.py "<embed-url>"
 ## Required Files
 - `soyjaks-pointing_overlay.png` - The overlay image
 - `soycial_network.py` - Main script
-
-## How It Works
-1. Uses Playwright to capture a screenshot of the LinkedIn embed
-2. Applies black rectangles to censor personal information
-3. Crops out unnecessary UI elements
-4. Overlays soyjak reactions scaled to the post
-5. Saves the final meme as `output.png`
 
 ## Notes
 - The script is designed for LinkedIn embed URLs, not regular LinkedIn post URLs
