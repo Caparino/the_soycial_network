@@ -1,6 +1,6 @@
 # the soycial network
 
-A command-line tool that creates memes from LinkedIn posts by first anonymizing them and then overlaying the famous soyjaks pointing meme.
+A command-line tool that creates memes from LinkedIn posts by anonymizing them and overlaying the famous *two soyjaks pointing* meme on top.
 
 ## How It Works
 1. Uses Playwright to capture a screenshot of the LinkedIn embed
