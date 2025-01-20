@@ -21,7 +21,18 @@ git clone https://github.com/Caparino/the_soycial_network.git
 cd the_soycial_network
 ```
 
-2. Install dependencies:
+2. (Optional but recommended) Create and activate a virtual environment:
+```bash
+# On macOS/Linux:
+python3 -m venv venv
+source venv/bin/activate
+
+# On Windows:
+python -m venv venv
+.\venv\Scripts\activate
+```
+
+3. Install dependencies:
 ```bash
 pip install -r requirements.txt
 playwright install chromium
